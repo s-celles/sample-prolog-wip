@@ -6,6 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Update and install required packages
 RUN apt-get update && apt-get install -y \
     gprolog \
+    swi-prolog \
     git \
     curl \
     wget \
