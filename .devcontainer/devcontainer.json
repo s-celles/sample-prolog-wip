@@ -1,0 +1,15 @@
+{
+    "name": "Prolog Development",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eliasgrewe.prolog-runner",
+                "rebornix.prolog"
+            ]
+        }
+    }
+    //"remoteUser": "daytona"
+}
